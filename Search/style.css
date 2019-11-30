@@ -1,0 +1,123 @@
+body{
+	margin:0;
+	padding: 0;
+	cursor:default;
+	background:#555;
+	letter-spacing: 0em;
+}
+.logo{
+	font-size:85px;
+	text-align: center;
+	margin:80px;
+	font-weight: bold;
+	font-style: sans-serif;
+	letter-spacing: -0.1em;
+}
+.search-box{
+	position: absolute;
+	background:#f4f4f4;
+	height:40px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+	padding:0px;
+	margin: 0px;
+	min-width: 510px;
+}
+.search-box:hover>.search-btn{
+	background: #ccc;
+	color:black;
+}
+.search-txt{
+	border:none;
+	background:none;
+	outline:none;
+	float:right;
+	color:#000;
+	font-size:16px;
+	transition:0.4s;
+	line-height:40px;
+	width:450px;
+	font-weight:normal;
+	margin-inline-start:0px;
+}
+.search-btn{
+	color:#000;
+	float:left;
+	width: 40px;
+	height:40px;
+	border-radius:50%;
+	background:#f4f4f4;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	transition: 0.2s;
+	color:black;
+	cursor:pointer;
+	margin: auto;
+}
+.search-btn > i{
+	font-size:20px;
+}
+#signup{
+    text-align: right;
+    background-color:#555;
+    padding:15px 0px;
+    margin:15px 0px;
+}
+#signup button{
+	border: none;
+	outline: none;
+	height: 20px;
+	background: #f4f4f4;
+	color:#fff;
+	font-size:18px;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+#signup a{
+	text-decoration: none;
+	font-family:sans-serif;
+	color:#000;
+}
+#signup a:hover{
+	color:green;
+}
+.Team ul{
+	list-style:none;
+	background:#555;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+.Team li{
+	display:inline-block;
+}
+.Team a{
+	text-decoration:none;
+	color:black;
+	width:80px;
+	display:block;
+	padding:5px;
+	font-size:8px;
+	font-family:Helvetica;
+	transition:0.4s;
+	font-weight: normal;
+}
+.Team a:hover{
+	background:#ccc;
+	transition:0.4s;
+}
+#error{
+	width:50%;
+	margin: 5px auto;
+	height: 30px;
+	border:1px solid #fff;
+	background: #555;
+	border-radius: 20px;
+	color: #555;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold; 
+}

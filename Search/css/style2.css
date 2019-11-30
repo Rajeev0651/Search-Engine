@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	background-color: #fff;
+	font-family:sans-serif;
+}
+.loginbox1{
+	margin:20px 50px;
+	width: 320px;
+	height:450px;
+	background: #ccc;
+	color:#000;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 40px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -60px;
+	left: calc(50%-50px);
+}
+.h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox1 label{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+}
+.loginbox1 input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox1 input[type="email"],input[type="password"]{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height:40px;
+	color:#000;
+	font-size:16px;
+	font-weight: bold;
+}
+.loginbox1 input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius: 20px;
+}
+.loginbox1 input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color:#000;
+}
+.loginbox1 a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height:20px;
+	color:darkgrey;
+}
+.loginbox1 a:hover{
+	color:green;
+}
+#enter{
+    text-align: left;
+    background-color:#fff;
+    padding:0px;
+    margin:40px 10px;
+    padding:40px 10px;
+}
+#enter button{
+	border: none;
+	outline: none;
+	height: 20px;
+	background: #ccc;
+	color:#fff;
+	font-size:18px;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+#enter a{
+	text-decoration: none;
+	font-family:sans-serif;
+	color:#000;
+}
+#enter a:hover{
+	color:green;
+}
+.enter1{
+    text-align: left;
+    background-color:#ccc;
+    padding:0px;
+}
+.enter1 button{
+	border: none;
+	outline: none;
+	height: 20px;
+	background: #ccc;
+	color:#ccc;
+	font-size:18px;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+.enter1 a{
+	text-decoration: none;
+	font-family:sans-serif;
+	color:#000;
+}
+.enter1 a:hover{
+	color:green;
+}

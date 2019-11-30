@@ -1,0 +1,131 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	background-color: #fff;
+	font-family:sans-serif;
+}
+.loginbox{
+	margin:200px 50px;
+	width: 320px;
+	height:860px;
+	background: #ccc;
+	color:#000;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius:40px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -60px;
+	left: calc(50%-50px);
+}
+.h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox label{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="email"],input[type="password"],input[type="number"],input[type="date"]{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height:40px;
+	color:#000;
+	font-size:16px;
+	font-weight: bold;
+}
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius: 20px;
+}
+.loginbox option{
+	margin:0;
+	padding: 0;
+	background: #ccc;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color:#000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height:20px;
+	color:darkgrey;
+}
+.loginbox a:hover{
+	color:green;
+}
+#wayto{
+    text-align: left;
+    background-color:#fff;
+    padding:0px;
+    margin: 40px 10px;
+    padding: 40px 10px;
+}
+#wayto button{
+	border: none;
+	outline: none;
+	height: 20px;
+	background: #ccc;
+	color:#fff;
+	font-size:18px;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+#wayto a{
+	text-decoration: none;
+	font-family:sans-serif;
+	color:#000;
+}
+.wayto1 a:hover{
+	color:green;
+}
+.wayto1{
+    text-align: left;
+    background-color:#ccc;
+    padding:0px;
+}
+.wayto1 button{
+	border: none;
+	outline: none;
+	height: 20px;
+	background: #ccc;
+	color:#ccc;
+	font-size:18px;
+	font-family: sans-serif;
+	border-radius: 20px;
+}
+.wayto1 a{
+	text-decoration: none;
+	font-family:sans-serif;
+	color:#000;
+}
+.wayto1 a:hover{
+	color:green;
+}
